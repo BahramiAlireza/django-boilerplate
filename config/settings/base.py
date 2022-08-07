@@ -5,6 +5,8 @@ from pathlib import Path
 
 import environ
 
+from .apps import *  # noqa
+
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # core/
 APPS_DIR = ROOT_DIR / "core"

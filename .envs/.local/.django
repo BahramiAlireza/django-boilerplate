@@ -5,4 +5,4 @@ IPYTHONDIR=/app/.ipython
 # Redis
 # ------------------------------------------------------------------------------
 REDIS_URL=redis://redis:6379/0
-
+INSTALLED_PACKAGES=crispy_forms, crispy_bootstrap5, allauth, rest_framework, corsheaders, drf_spectacular
